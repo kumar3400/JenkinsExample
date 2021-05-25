@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 public class NewTest1 {
   
 	public static WebDriver driver;
-	NewTest2 newTest;
+	//NewTest2 newTest;
 	 
 	
 	/*TestNG is an automation testing framework in which NG stands for "Next Generation". 

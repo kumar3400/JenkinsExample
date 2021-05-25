@@ -4,10 +4,6 @@
   <test name="Test">
     <classes>
       <class name="testngFramework.NewTest1"/>
-      <class name="testngFramework.NewTest2"/>
-      <class name="testngFramework.NewTest3"/>
-      <class name="testngFramework.sample"/>
-      <class name="testngFramework.Sample1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
