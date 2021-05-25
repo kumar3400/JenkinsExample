@@ -1,80 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="160059" started-at="2021-05-25T14:32:22Z" finished-at="2021-05-25T14:35:02Z">
+  <suite name="Default suite" duration-ms="20339" started-at="2021-05-25T15:33:10Z" finished-at="2021-05-25T15:33:31Z">
     <groups>
-      <group name="regression">
-        <method signature="NewTest2.advancedsearch()[pri:2, instance:testngFramework.NewTest2@ae45eb6]" name="advancedsearch" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.billpayments()[pri:4, instance:testngFramework.NewTest2@ae45eb6]" name="billpayments" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.login()[pri:1, instance:testngFramework.NewTest2@ae45eb6]" name="login" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.logout()[pri:10, instance:testngFramework.NewTest2@ae45eb6]" name="logout" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.preparedreacharge()[pri:3, instance:testngFramework.NewTest2@ae45eb6]" name="preparedreacharge" class="testngFramework.NewTest2"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="NewTest2.Fundtransfer()[pri:3, instance:testngFramework.NewTest2@ae45eb6]" name="Fundtransfer" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.login()[pri:1, instance:testngFramework.NewTest2@ae45eb6]" name="login" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.logout()[pri:10, instance:testngFramework.NewTest2@ae45eb6]" name="logout" class="testngFramework.NewTest2"/>
-        <method signature="NewTest2.search()[pri:2, instance:testngFramework.NewTest2@ae45eb6]" name="search" class="testngFramework.NewTest2"/>
-      </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="160059" started-at="2021-05-25T14:32:22Z" finished-at="2021-05-25T14:35:02Z">
-      <class name="testngFramework.Sample1">
-        <test-method status="PASS" signature="testA()[pri:0, instance:testngFramework.Sample1@27efef64]" name="testA" duration-ms="8" started-at="2021-05-25T14:34:56Z" finished-at="2021-05-25T14:34:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method status="PASS" signature="testB()[pri:0, instance:testngFramework.Sample1@27efef64]" name="testB" duration-ms="5014" started-at="2021-05-25T14:34:56Z" finished-at="2021-05-25T14:35:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testB -->
-      </class> <!-- testngFramework.Sample1 -->
-      <class name="testngFramework.NewTest3">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:testngFramework.NewTest3@59f99ea]" name="Test1" duration-ms="12797" started-at="2021-05-25T14:33:13Z" finished-at="2021-05-25T14:33:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:testngFramework.NewTest3@59f99ea]" name="Test2" duration-ms="18941" started-at="2021-05-25T14:33:26Z" finished-at="2021-05-25T14:33:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:testngFramework.NewTest3@59f99ea]" name="Test3" duration-ms="14468" started-at="2021-05-25T14:33:45Z" finished-at="2021-05-25T14:33:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- testngFramework.NewTest3 -->
-      <class name="testngFramework.sample">
-        <test-method status="PASS" signature="browser()[pri:0, instance:testngFramework.sample@3532ec19]" name="browser" is-config="true" duration-ms="7666" started-at="2021-05-25T14:32:22Z" finished-at="2021-05-25T14:32:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method status="PASS" signature="Verifytitle()[pri:0, instance:testngFramework.sample@3532ec19]" name="Verifytitle" duration-ms="9852" started-at="2021-05-25T14:33:59Z" finished-at="2021-05-25T14:34:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifytitle -->
-        <test-method status="PASS" signature="verify()[pri:0, instance:testngFramework.sample@3532ec19]" name="verify" duration-ms="46925" started-at="2021-05-25T14:34:09Z" finished-at="2021-05-25T14:34:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testngFramework.sample@3532ec19]" name="closebrowser" is-config="true" duration-ms="1138" started-at="2021-05-25T14:35:01Z" finished-at="2021-05-25T14:35:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- testngFramework.sample -->
+    <test name="Default test" duration-ms="20339" started-at="2021-05-25T15:33:10Z" finished-at="2021-05-25T15:33:31Z">
       <class name="testngFramework.NewTest1">
-        <test-method status="PASS" signature="init()[pri:0, instance:testngFramework.NewTest1@68c4039c]" name="init" is-config="true" duration-ms="4140" started-at="2021-05-25T14:32:30Z" finished-at="2021-05-25T14:32:34Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testngFramework.NewTest1@68c4039c]" name="init" is-config="true" duration-ms="4397" started-at="2021-05-25T15:33:11Z" finished-at="2021-05-25T15:33:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testngFramework.NewTest1@68c4039c]" name="login" duration-ms="38582" started-at="2021-05-25T14:32:34Z" finished-at="2021-05-25T14:33:12Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testngFramework.NewTest1@68c4039c]" name="login" duration-ms="15466" started-at="2021-05-25T15:33:15Z" finished-at="2021-05-25T15:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testngFramework.NewTest1@68c4039c]" name="quit" is-config="true" duration-ms="379" started-at="2021-05-25T14:33:12Z" finished-at="2021-05-25T14:33:13Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:testngFramework.NewTest1@68c4039c]" name="quit" is-config="true" duration-ms="433" started-at="2021-05-25T15:33:30Z" finished-at="2021-05-25T15:33:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testngFramework.NewTest1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
