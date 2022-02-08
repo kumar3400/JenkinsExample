@@ -38,12 +38,12 @@ public class NewTest1 {
 		
 		//added the webdriver manager setup dependency in pom.xml
 	
-	//added chromedriver
+	//added chromedriver in branch also
 		WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		 
 		 
 	}
