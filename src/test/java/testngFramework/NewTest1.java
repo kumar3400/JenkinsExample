@@ -37,6 +37,8 @@ public class NewTest1 {
 			//	+ "chromedriver.exe");
 		
 		//added the webdriver manager setup dependency in pom.xml
+	
+	//added chromedriver
 		WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
