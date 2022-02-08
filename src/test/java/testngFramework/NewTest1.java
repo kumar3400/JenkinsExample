@@ -36,7 +36,7 @@ public class NewTest1 {
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\sr464\\java selenium\\chromedriver_win32\\chromedriver_win32_90\\"
 			//	+ "chromedriver.exe");
 		
-		
+		//added the webdriver manager setup dependency in pom.xml
 		WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
