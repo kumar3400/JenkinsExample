@@ -38,7 +38,7 @@ public class NewTest1 {
 		
 		//added the webdriver manager setup dependency in pom.xml
 	
-	//added chromedriver
+	//added chromedriver in branch also
 		WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
