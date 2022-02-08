@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test name="Test">
     <classes>
-      <class name="testngFramework.sample">
-        <methods>
-          <include name="Verifytitle"/>
-          <include name="browser"/>
-          <include name="closebrowser"/>
-          <include name="verify"/>
-        </methods>
-      </class> <!-- testngFramework.sample -->
-      <class name="testngFramework.NewTest1">
-        <methods>
-          <include name="init"/>
-          <include name="quit"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- testngFramework.NewTest1 -->
-      <class name="testngFramework.Sample1">
-        <methods>
-          <include name="testB"/>
-          <include name="testA"/>
-        </methods>
-      </class> <!-- testngFramework.Sample1 -->
-      <class name="testngFramework.NewTest3">
-        <methods>
-          <include name="Test1"/>
-          <include name="Test2"/>
-          <include name="Test3"/>
-        </methods>
-      </class> <!-- testngFramework.NewTest3 -->
+      <class name="testngFramework.NewTest1"/>
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

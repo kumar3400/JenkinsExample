@@ -11,6 +11,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
  
@@ -29,11 +31,14 @@ public class NewTest1 {
 	*/
 
 	// This method is to navigate snapdeal URL
-	@BeforeClass
+@BeforeClass
 	public void init() throws IOException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\sr464\\java selenium\\chromedriver_win32\\chromedriver_win32_90\\"
-				+ "chromedriver.exe");
-			
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\sr464\\java selenium\\chromedriver_win32\\chromedriver_win32_90\\"
+			//	+ "chromedriver.exe");
+		
+		
+		WebDriverManager.chromedriver().setup();
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
